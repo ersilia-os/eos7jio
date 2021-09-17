@@ -27,14 +27,11 @@ class Descriptor(object):
             v = 127
         return v
 
-    def _calc(self, mols):
-        fingerprints = []
-        for mol in mols:
-            counts = Chem.RDKFingerprint(
-                mol, minPath=self.minPathLen, maxPath=self.maxPathLen,
-                fpSize=self.nbits)
-            fingerprints += [[self._clip(c) for c in counts]]
-        return np.array(fingerprints, dtype=np.int8)
+    def calc(self, mol):
+        counts = Chem.RDKFingerprint(
+            mol, minPath=self.minPathLen, maxPath=self.maxPathLen,
+            fpSize=self.nbits)
+        return [self._clip(c) for c in counts]
 
 
 @artifacts([JSONArtifact("model")])

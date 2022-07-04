@@ -17,7 +17,7 @@ This model was published by Greg Landrum et al. RDKit Book. 2021 https://www.rdk
 - Code: https://github.com/rdkit/rdkit
 
 ## License
-The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "rdkit", located at /src and licensed under a BSD-3 License
+The GPL-v3 license applies to all parts of the repository that are not externally maintained libraries. This repository uses the externally maintained library "rdkit", located at `/model` and licensed under a BSD-3 License
 
 ## History
 - This model was downloaded and incorporated on September 17, 2021

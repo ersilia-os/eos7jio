@@ -4,4 +4,4 @@ MAINTAINER ersilia
 RUN pip install rdkit-pypi
 
 WORKDIR /repo
-COPY ./repo
+COPY . /repo

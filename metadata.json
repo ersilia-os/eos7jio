@@ -4,33 +4,44 @@
     "Status": "Ready",
     "Title": "Path-based fingerprint",
     "Description": "Path-based fingerprints calculated with the RDKit package Chem.RDKFingerprint. It is inspired in the Daylight fingerprint. As explained in the RDKit Book, the fingerprinting algorithm identifies all subgraphs in the molecule within a particular range of sizes, hashes each subgraph to generate a raw bit ID, mods that raw bit ID to fit in the assigned fingerprint size, and then sets the corresponding bit. \n",
-    "Mode": "Pretrained",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
-    "Task": [
-        "Representation"
+    "Input Dimension": 1,
+    "Task": "Representation",
+    "Subtask": "Featurization",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
     ],
     "Output": [
         "Descriptor"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
+    "Output Dimension": 2048,
+    "Output Consistency": "Fixed",
     "Interpretation": "Vector representation of small molecules",
     "Tag": [
         "Fingerprint",
         "Descriptor"
     ],
     "Publication": "https://www.rdkit.org/docs/RDKit_Book.html",
+    "Publication Type": "Other",
+    "Publication Year": 2010,
     "Source Code": "https://github.com/rdkit/rdkit",
-    "License": "BSD-3.0",
+    "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7jio.zip",
+    "Incorporation Date": "2021-09-17",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos7jio",
     "Docker Architecture": [
-        "AMD64"
+        "AMD64",
+        "ARM64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7jio.zip",
+    "Deployment": [
+        "Local"
     ]
 }

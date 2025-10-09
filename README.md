@@ -4,6 +4,7 @@ Path-based fingerprints calculated with the RDKit package Chem.RDKFingerprint. I
 
 This model was incorporated on 2021-09-17.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos7jio`
@@ -13,7 +14,7 @@ This model was incorporated on 2021-09-17.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Fingerprint`, `Descriptor`
 
 ### Input

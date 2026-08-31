@@ -28,16 +28,16 @@ This model was incorporated on 2021-09-17.Last packaged on 2025-10-09.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dimension_0000 | integer |  | RDKit fingerprint dimension 0 with 2048 bits and path length of 1-7 |
-| dimension_0001 | integer |  | RDKit fingerprint dimension 1 with 2048 bits and path length of 1-7 |
-| dimension_0002 | integer |  | RDKit fingerprint dimension 2 with 2048 bits and path length of 1-7 |
-| dimension_0003 | integer |  | RDKit fingerprint dimension 3 with 2048 bits and path length of 1-7 |
-| dimension_0004 | integer |  | RDKit fingerprint dimension 4 with 2048 bits and path length of 1-7 |
-| dimension_0005 | integer |  | RDKit fingerprint dimension 5 with 2048 bits and path length of 1-7 |
-| dimension_0006 | integer |  | RDKit fingerprint dimension 6 with 2048 bits and path length of 1-7 |
-| dimension_0007 | integer |  | RDKit fingerprint dimension 7 with 2048 bits and path length of 1-7 |
-| dimension_0008 | integer |  | RDKit fingerprint dimension 8 with 2048 bits and path length of 1-7 |
-| dimension_0009 | integer |  | RDKit fingerprint dimension 9 with 2048 bits and path length of 1-7 |
+| feat_0000 | integer |  | RDKit fingerprint feature 0 with 2048 bits and path length of 1-7 |
+| feat_0001 | integer |  | RDKit fingerprint feature 1 with 2048 bits and path length of 1-7 |
+| feat_0002 | integer |  | RDKit fingerprint feature 2 with 2048 bits and path length of 1-7 |
+| feat_0003 | integer |  | RDKit fingerprint feature 3 with 2048 bits and path length of 1-7 |
+| feat_0004 | integer |  | RDKit fingerprint feature 4 with 2048 bits and path length of 1-7 |
+| feat_0005 | integer |  | RDKit fingerprint feature 5 with 2048 bits and path length of 1-7 |
+| feat_0006 | integer |  | RDKit fingerprint feature 6 with 2048 bits and path length of 1-7 |
+| feat_0007 | integer |  | RDKit fingerprint feature 7 with 2048 bits and path length of 1-7 |
+| feat_0008 | integer |  | RDKit fingerprint feature 8 with 2048 bits and path length of 1-7 |
+| feat_0009 | integer |  | RDKit fingerprint feature 9 with 2048 bits and path length of 1-7 |
 
 _10 of 2048 columns are shown_
 ### Source and Deployment

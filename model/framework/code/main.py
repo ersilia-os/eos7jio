@@ -61,7 +61,7 @@ input_len = len(smiles_list)
 output_len = len(outputs)
 assert input_len == output_len
 
-header = ["dimension_{0}".format(str(i).zfill(4)) for i in range(_N_BITS)]
+header = ["feat_{0}".format(str(i).zfill(4)) for i in range(_N_BITS)]
 
 # write output in a .csv file
 with open(output_file, "w") as f:

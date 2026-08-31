@@ -38,7 +38,7 @@
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-09-17",
-    "Last Packaging Date": "2025-10-09",
+    "Last Packaging Date": "2026-08-31",
     "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos7jio.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos7jio",
@@ -48,10 +48,10 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 443.0,
-    "Image Size": 477.97,
-    "Computational Performance 1": 27.01,
-    "Computational Performance 2": 16.68,
-    "Computational Performance 3": 17.19,
-    "Computational Performance 4": 23.4,
-    "Computational Performance 5": 51.9
+    "Image Size": 505.15,
+    "Computational Performance 1": 26.49,
+    "Computational Performance 2": 21.42,
+    "Computational Performance 3": 25.87,
+    "Computational Performance 4": 30.65,
+    "Computational Performance 5": 54.98
 }

@@ -1,6 +1,6 @@
 # Path-based fingerprint
 
-Path-based fingerprints calculated with the RDKit package Chem.RDKFingerprint. It is inspired in the Daylight fingerprint. As explained in the RDKit Book, the fingerprinting algorithm identifies all subgraphs in the molecule within a particular range of sizes, hashes each subgraph to generate a raw bit ID, mods that raw bit ID to fit in the assigned fingerprint size, and then sets the corresponding bit. 
+Encodes a molecule as a 2048-bit path-based fingerprint using RDKit's own hashing scheme, an approach inspired by the Daylight fingerprint. The algorithm enumerates linear and branched paths of between one and seven bonds, hashes each into a bit position, and sets that bit. Because bits are hashed rather than assigned, several substructures can collide on the same position, so an individual bit is not attributable to one chemical feature. Fingerprints of this kind remain a strong baseline for similarity and QSAR work.
 
 This model was incorporated on 2021-09-17.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-09-17.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `2048`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Vector representation of small molecules
+- **Interpretation:** 2048-bit path-based fingerprint where each bit flags hashed substructures of one to seven bonds.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
